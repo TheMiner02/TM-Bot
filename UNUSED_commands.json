@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "cmd": "$help",
+    "desc": "Shows this list of commands"
+  },
+  {
+    "id": 2,
+    "cmd": "$testbot",
+    "desc": "Checks if the bot is online"
+  },
+  {
+    "id": 3,
+    "cmd": "Empty",
+    "desc": "n/a"
+  },
+  {
+    "id": 4,
+    "cmd": "Empty",
+    "desc": "n/a"
+  }
+]
