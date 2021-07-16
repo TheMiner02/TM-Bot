@@ -15,6 +15,17 @@ def showHelp():
     return (commands)
 
 
+def getUptime():
+  ut_url = "https://api.uptimerobot.com/v2/getMonitors"
+  ut_payload = "api_key=" + os.getenv('UPTIMEAPI') + "&format=json&logs=1"
+  ut_headers = {
+    'content-type': "application/x-www-form-urlencoded",
+    'cache-control': "no-cache"
+    }
+  ut_response = requests.request("POST", ut_url, data=ut_payload, headers=ut_headers).text
+  return (ut_response)
+
+
 def generatePing():
     generatedping = random.randint(18, 44)
     pingstr = str(generatedping)
@@ -181,6 +192,16 @@ async def on_message(message):
             return
 
         print('stats - ' + stat_type + ' sent')
+        return
+
+# ---------------------------------------------------------------
+# $uptime - Displays info on the Bots uptime
+# ---------------------------------------------------------------
+
+    if message.content.startswith('$uptime'):
+        # uptime = getUptime()
+        await message.channel.send('This command is still in development. Try something else :)')
+        print('uptime - Answer sent')
         return
 
 # ---------------------------------------------------------------
