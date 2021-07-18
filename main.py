@@ -6,7 +6,7 @@ import requests
 from keep_alive import keep_alive
 
 client = discord.Client()
-bot_version = "v2.3.7-dev"
+bot_version = "v2.3.6-public"
 
 # ---
 
