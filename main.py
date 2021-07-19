@@ -170,8 +170,8 @@ async def on_message(message):
 
         dc_tc = str(len(guild.text_channels))
         dc_vc = str(len(guild.voice_channels))
-        dc_members = str(guild.member_count)
-        dc_roles = str(len(guild.roles) - 1)
+        dc_members = str(guild.member_count + 1)
+        dc_roles = str(len(guild.roles)
 
         # Response:
         stats_yt = "**YouTube stats**\nSubscribers: " + yt_subs + "\nTotal videos: " + yt_videos + "\nTotal views: " + yt_views + "\nChannel created: 15.09.2016"
