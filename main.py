@@ -170,7 +170,7 @@ async def on_message(message):
 
         dc_tc = str(len(guild.text_channels))
         dc_vc = str(len(guild.voice_channels))
-        dc_members = str(guild.member_count + 1)
+        dc_members = str(guild.member_count)
         dc_roles = str(len(guild.roles))
 
         # Response:
