@@ -1,5 +1,7 @@
 # TM-Bot by TheMiner_02
 
+## Notice:
+This bot is outdated. I'm currently working on version 3.
 
 ## Info
 This is a simple bot with a few commands that I made for my own Discord-Server.
