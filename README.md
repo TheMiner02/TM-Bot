@@ -1,7 +1,7 @@
 # TM-Bot by TheMiner_02
 
 ## Notice:
-This bot is outdated. I'm currently working on version 3.
+This bot is outdated. See https://github.com/theminer02/TMBot-JS
 
 ## Info
 This is a simple bot with a few commands that I made for my own Discord-Server.
